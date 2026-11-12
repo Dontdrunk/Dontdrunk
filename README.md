@@ -8,15 +8,6 @@
   <img src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%9C%A8%E7%BA%BF-7fd1c1?style=flat-square&labelColor=161b22" alt="状态">
 </p>
 
-<table width="100%">
-  <tr>
-    <td align="center" width="25%"><sub><b>方向</b></sub><br>工具链 · 桌面端</td>
-    <td align="center" width="25%"><sub><b>主攻</b></sub><br>ComfyUI · Agent</td>
-    <td align="center" width="25%"><sub><b>技术</b></sub><br><code>Python</code> <code>TypeScript</code> <code>C#</code></td>
-    <td align="center" width="25%"><sub><b>节奏</b></sub><br>持续迭代</td>
-  </tr>
-</table>
-
 ---
 
 #### `模块清单`
