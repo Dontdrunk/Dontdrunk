@@ -10,11 +10,10 @@
 
 <table width="100%">
   <tr>
-    <td align="center" width="20%"><sub><b>方向</b></sub><br>工具链 / 桌面端 / 自动化</td>
-    <td align="center" width="20%"><sub><b>主攻</b></sub><br>ComfyUI · Agent 工具</td>
-    <td align="center" width="20%"><sub><b>技术</b></sub><br><code>Python</code> <code>TypeScript</code> <code>C#</code></td>
-    <td align="center" width="20%"><sub><b>节奏</b></sub><br>持续迭代</td>
-    <td align="center" width="20%"><sub><b>联络</b></sub><br>哔哩哔哩私信</td>
+    <td align="center" width="25%"><sub><b>方向</b></sub><br>工具链 · 桌面端</td>
+    <td align="center" width="25%"><sub><b>主攻</b></sub><br>ComfyUI · Agent</td>
+    <td align="center" width="25%"><sub><b>技术</b></sub><br><code>Python</code> <code>TypeScript</code> <code>C#</code></td>
+    <td align="center" width="25%"><sub><b>节奏</b></sub><br>持续迭代</td>
   </tr>
 </table>
 
@@ -24,52 +23,46 @@
 
 <table width="100%">
   <tr>
-    <th align="left" width="52"><sub>序号</sub></th>
-    <th align="left" width="360"><sub>项目</sub></th>
-    <th align="left" width="130"><sub>语言</sub></th>
-    <th align="left" width="190"><sub>状态</sub></th>
-    <th align="left"><sub>备注</sub></th>
-    <th align="left" width="86"><sub>更新</sub></th>
+    <th align="left" width="44"><sub>序号</sub></th>
+    <th align="left" width="300"><sub>项目</sub></th>
+    <th align="left" width="110"><sub>语言</sub></th>
+    <th align="left" width="160"><sub>状态</sub></th>
+    <th align="left" width="220"><sub>备注</sub></th>
   </tr>
   <tr>
     <td><code>01</code></td>
     <td><a href="https://github.com/Dontdrunk/ComfyUI-DD-Translation"><b>ComfyUI-DD-Translation</b></a><br><sub>面向最新版本 ComfyUI 的全面翻译与适配</sub></td>
     <td><code>Python</code></td>
     <td>★ 848 · 维护中</td>
-    <td><sub>上游同步 · 全量中文适配 · 插件兼容</sub></td>
-    <td><sub>11.11</sub></td>
+    <td><sub>上游同步 · 中文适配</sub></td>
   </tr>
   <tr>
     <td><code>02</code></td>
     <td><a href="https://github.com/Dontdrunk/ComfyUI-DD-Nodes"><b>ComfyUI-DD-Nodes</b></a><br><sub>多 AI 协作开发的节点库</sub></td>
     <td><code>JavaScript</code></td>
     <td>★ 184 · 维护中</td>
-    <td><sub>社区贡献合并 · 节点测试 · 文档整理</sub></td>
-    <td><sub>11.11</sub></td>
+    <td><sub>社区贡献合并 · 测试</sub></td>
   </tr>
   <tr>
     <td><code>03</code></td>
     <td><a href="https://github.com/Dontdrunk/Comfyui-EL-Launcher"><b>Comfyui-EL-Launcher</b></a><br><sub>ComfyUI 桌面启动器</sub></td>
     <td><code>TypeScript</code></td>
     <td>开发中</td>
-    <td><sub>桌面端封装 · Windows 打包 · 自动更新</sub></td>
-    <td><sub>11.12</sub></td>
+    <td><sub>桌面封装 · 自动更新</sub></td>
   </tr>
   <tr>
     <td><code>04</code></td>
     <td><a href="https://github.com/Dontdrunk/ModuWeb-EasyPyEnv"><b>ModuWeb-EasyPyEnv</b></a><br><sub>可视化 Python 环境管理</sub></td>
     <td><code>JavaScript</code></td>
     <td>★ 34 · 稳定</td>
-    <td><sub>环境隔离 · 一键切换 · 依赖清理</sub></td>
-    <td><sub>02.05</sub></td>
+    <td><sub>环境隔离 · 依赖清理</sub></td>
   </tr>
   <tr>
     <td><code>05</code></td>
     <td><a href="https://github.com/Dontdrunk/AgentEnvChecker"><b>AgentEnvChecker</b></a><br><sub>Windows Agent 环境诊断</sub></td>
     <td><code>C#</code></td>
     <td>稳定</td>
-    <td><sub>运行时自检 · 依赖修复 · 报错定位</sub></td>
-    <td><sub>06.27</sub></td>
+    <td><sub>运行时自检 · 报错定位</sub></td>
   </tr>
 </table>
 
