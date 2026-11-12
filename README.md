@@ -3,21 +3,21 @@
 </div>
 
 <p align="center">
-  <a href="https://space.bilibili.com/23038079"><img src="https://img.shields.io/badge/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-%E8%A7%86%E9%A2%91%E6%97%A5%E5%BF%97-ff7a18?style=flat-square&labelColor=161b22" alt="哔哩哔哩"></a>
-  <img src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%9C%A8%E7%BA%BF-7fd1c1?style=flat-square&labelColor=161b22" alt="状态">
+  <a href="https://space.bilibili.com/23038079"><img src="https://img.shields.io/badge/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-%E8%A7%86%E9%A2%91%E6%97%A5%E5%BF%97-ffd400?style=flat-square&labelColor=111111" alt="哔哩哔哩"></a>
+  <img src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%9C%A8%E7%BA%BF-ffd400?style=flat-square&labelColor=111111" alt="状态">
 </p>
 
 ---
 
-#### `模块清单`
+#### `项目清单`
 
 <table width="100%">
   <tr>
-    <th align="left" width="44"><sub>序号</sub></th>
-    <th align="left" width="300"><sub>项目</sub></th>
-    <th align="left" width="110"><sub>语言</sub></th>
-    <th align="left" width="160"><sub>状态</sub></th>
-    <th align="left" width="220"><sub>备注</sub></th>
+    <th align="left" width="50"><sub>序号</sub></th>
+    <th align="left" width="330"><sub>项目</sub></th>
+    <th align="left" width="120"><sub>语言</sub></th>
+    <th align="left" width="175"><sub>状态</sub></th>
+    <th align="left" width="300"><sub>备注</sub></th>
   </tr>
   <tr>
     <td><code>01</code></td>
@@ -55,3 +55,13 @@
     <td><sub>运行时自检 · 报错定位</sub></td>
   </tr>
 </table>
+
+---
+
+#### `贡献图`
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Dontdrunk/Dontdrunk/output/contrib.svg" width="100%" alt="贡献图">
+</div>
+
+<div align="center"><sub>每日自动同步 · 红色为全年峰值日</sub></div>
