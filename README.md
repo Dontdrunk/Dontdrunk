@@ -4,7 +4,6 @@
 
 <p align="center">
   <a href="https://space.bilibili.com/23038079"><img src="https://img.shields.io/badge/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-%E8%A7%86%E9%A2%91%E6%97%A5%E5%BF%97-ff7a18?style=flat-square&labelColor=161b22" alt="哔哩哔哩"></a>
-  <img src="https://img.shields.io/badge/%E6%A8%A1%E5%9D%97-05%20%E4%B8%AA-8b949e?style=flat-square&labelColor=161b22" alt="模块数量">
   <img src="https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%9C%A8%E7%BA%BF-7fd1c1?style=flat-square&labelColor=161b22" alt="状态">
 </p>
 
@@ -56,7 +55,3 @@
     <td><sub>运行时自检 · 报错定位</sub></td>
   </tr>
 </table>
-
----
-
-<div align="center"><sub>在佛山制造 · 慢慢做，慢慢发</sub></div>
