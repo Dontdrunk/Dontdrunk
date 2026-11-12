@@ -1,27 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Dontdrunk">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Dontdrunk">
   <defs>
     <pattern id="haz" width="22" height="22" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
-      <rect width="11" height="22" fill="#ff7a18"/><rect x="11" width="11" height="22" fill="#0b0e0f"/>
+      <rect width="11" height="22" fill="#ffd400"/><rect x="11" width="11" height="22" fill="#0b0b0b"/>
     </pattern>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
     </pattern>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd400" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffd400" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffd400" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      @keyframes sweep{0%{transform:translateX(-320px)}100%{transform:translateX(320px)}}
+      @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+      @keyframes led{0%,100%{opacity:1}50%{opacity:.25}}
+      @keyframes fade{0%{opacity:.25}50%{opacity:.9}100%{opacity:.25}}
+      .bar{animation:sweep 7s linear infinite}
+      .cursor{animation:blink 1.05s steps(1) infinite}
+      .led{animation:led 1.6s ease-in-out infinite}
+      .tip{animation:fade 2.4s ease-in-out infinite}
+    </style>
   </defs>
-  <rect width="1200" height="260" fill="#0b0e0f"/>
-  <rect width="1200" height="260" fill="url(#grid)"/>
-  <rect width="1200" height="9" fill="url(#haz)"/>
-  <g stroke="#2a3133" stroke-width="1" fill="none">
-    <path d="M44 42h22M44 42v22"/><path d="M1156 42h-22M1156 42v22"/>
-    <path d="M44 218h22M44 218v-22"/><path d="M1156 218h-22M1156 218v-22"/>
+  <rect width="1200" height="330" fill="#0b0b0b"/>
+  <rect width="1200" height="330" fill="url(#grid)"/>
+  <rect width="1200" height="12" fill="url(#haz)"/>
+  <g class="bar"><rect x="-160" y="12" width="320" height="318" fill="url(#scan)" opacity="0.10"/></g>
+  <rect x="20" y="30" width="1160" height="280" fill="none" stroke="#3a3a30"/>
+  <g stroke="#ffd400" stroke-width="2" fill="none">
+    <path d="M20 54h14M34 30v14"/><path d="M1180 54h-14M1166 30v14"/>
+    <path d="M20 286h14M34 310v-14"/><path d="M1180 286h-14M1166 310v-14"/>
   </g>
-  <text x="76" y="168" font-family="'Arial Black','Segoe UI',sans-serif" font-size="86" font-weight="900" fill="#e6edf3" letter-spacing="-1.5">DON'TDRUNK</text>
-  <g font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="16" fill="#6e7681">
-    <text x="880" y="112">角色</text><text x="1150" y="112" fill="#e6edf3" text-anchor="end">AI 应用工程师</text>
-    <text x="880" y="150">状态</text><text x="1150" y="150" fill="#7fd1c1" text-anchor="end">持续迭代</text>
-    <text x="880" y="188">起步</text><text x="1150" y="188" fill="#e6edf3" text-anchor="end">2016</text>
+  <text x="64" y="150" font-family="'Arial Black','Segoe UI',sans-serif" font-size="92" font-weight="900" fill="#f4f4ef" letter-spacing="-2">DON'TDRUNK</text>
+  <rect class="cursor" x="700" y="88" width="10" height="62" fill="#ffd400"/>
+  <rect x="64" y="168" width="300" height="8" fill="#ffd400"/>
+  <text x="64" y="208" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="19" font-weight="700" fill="#ffd400" letter-spacing="2">AI 应用工程师 · 全栈开发者</text>
+  <text x="64" y="248" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="14.5" fill="#8a8a80" letter-spacing="1.2">AI 应用 · 自动化工具 · ComfyUI 翻译生态 · DSH 插件 · 开源小工具</text>
+  <g stroke="#3a3a30">
+    <rect x="860" y="78" width="292" height="132" fill="none"/>
+    <line x1="860" y1="122" x2="1152" y2="122"/><line x1="860" y1="166" x2="1152" y2="166"/>
   </g>
-  <line x1="880" y1="96" x2="880" y2="204" stroke="#21262d" stroke-dasharray="2 4"/>
-  <line x1="880" y1="124" x2="1150" y2="124" stroke="#21262d"/>
-  <line x1="880" y1="162" x2="1150" y2="162" stroke="#21262d"/>
-  <line x1="880" y1="200" x2="1150" y2="200" stroke="#21262d"/>
+  <circle class="led" cx="874" cy="100" r="4" fill="#e03b2f"/>
+  <g font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="15">
+    <text x="890" y="105" fill="#8a8a80">状态</text><text x="1132" y="105" fill="#ffd400" text-anchor="end" font-weight="700">持续迭代</text>
+    <text x="880" y="149" fill="#8a8a80">起步</text><text x="1132" y="149" fill="#ffd400" text-anchor="end" font-weight="700">2016</text>
+    <text x="880" y="193" fill="#8a8a80">项目</text><text x="1132" y="193" fill="#ffd400" text-anchor="end" font-weight="700">05</text>
+  </g>
+  <line x1="64" y1="286" x2="1136" y2="286" stroke="#ffffff" stroke-opacity="0.08"/>
+  <g stroke="#ffd400" stroke-opacity="0.45">
+    <path d="M64 286v-8M144 286v-5M224 286v-8M304 286v-5M384 286v-8M464 286v-5M544 286v-8M624 286v-5M704 286v-8M784 286v-5M864 286v-8M944 286v-5M1024 286v-8M1104 286v-5"/>
+  </g>
+  <rect x="1156" y="286" width="8" height="8" fill="#e03b2f"/>
 </svg>
