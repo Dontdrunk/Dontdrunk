@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Dontdrunk">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Dontdrunk">
   <defs>
     <pattern id="haz" width="22" height="22" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
       <rect width="11" height="22" fill="#ff7a18"/><rect x="11" width="11" height="22" fill="#0b0e0f"/>
@@ -7,25 +7,21 @@
       <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
     </pattern>
   </defs>
-  <rect width="1200" height="300" fill="#0b0e0f"/>
-  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect width="1200" height="260" fill="#0b0e0f"/>
+  <rect width="1200" height="260" fill="url(#grid)"/>
   <rect width="1200" height="9" fill="url(#haz)"/>
   <g stroke="#2a3133" stroke-width="1" fill="none">
-    <path d="M44 46h24M44 46v24"/><path d="M1156 46h-24M1156 46v24"/>
-    <path d="M44 258h24M44 258v-24"/><path d="M1156 258h-24M1156 258v-24"/>
+    <path d="M44 42h22M44 42v22"/><path d="M1156 42h-22M1156 42v22"/>
+    <path d="M44 218h22M44 218v-22"/><path d="M1156 218h-22M1156 218v-22"/>
   </g>
-  <text x="80" y="100" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="16" fill="#ff7a18" letter-spacing="6">个人档案 · 持续更新</text>
-  <text x="76" y="196" font-family="'Arial Black','Segoe UI',sans-serif" font-size="84" font-weight="900" fill="#e6edf3" letter-spacing="-1.5">DON'TDRUNK</text>
-  <text x="80" y="238" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="17" fill="#8b949e" letter-spacing="3">一个平平无奇的艺术家 · 佛山</text>
-  <g font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="15" fill="#6e7681">
-    <text x="880" y="106">角色</text><text x="1150" y="106" fill="#e6edf3" text-anchor="end">创作 / 构建</text>
-    <text x="880" y="140">地点</text><text x="1150" y="140" fill="#e6edf3" text-anchor="end">佛山 · 中国</text>
-    <text x="880" y="174">状态</text><text x="1150" y="174" fill="#7fd1c1" text-anchor="end">持续迭代</text>
-    <text x="880" y="208">起步</text><text x="1150" y="208" fill="#e6edf3" text-anchor="end">2016</text>
+  <text x="76" y="168" font-family="'Arial Black','Segoe UI',sans-serif" font-size="86" font-weight="900" fill="#e6edf3" letter-spacing="-1.5">DON'TDRUNK</text>
+  <g font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="16" fill="#6e7681">
+    <text x="880" y="112">角色</text><text x="1150" y="112" fill="#e6edf3" text-anchor="end">AI 应用工程师</text>
+    <text x="880" y="150">状态</text><text x="1150" y="150" fill="#7fd1c1" text-anchor="end">持续迭代</text>
+    <text x="880" y="188">起步</text><text x="1150" y="188" fill="#e6edf3" text-anchor="end">2016</text>
   </g>
-  <line x1="880" y1="92" x2="880" y2="220" stroke="#21262d" stroke-dasharray="2 4"/>
-  <line x1="880" y1="118" x2="1150" y2="118" stroke="#21262d"/>
-  <line x1="880" y1="152" x2="1150" y2="152" stroke="#21262d"/>
-  <line x1="880" y1="186" x2="1150" y2="186" stroke="#21262d"/>
-  <line x1="880" y1="220" x2="1150" y2="220" stroke="#21262d"/>
+  <line x1="880" y1="96" x2="880" y2="204" stroke="#21262d" stroke-dasharray="2 4"/>
+  <line x1="880" y1="124" x2="1150" y2="124" stroke="#21262d"/>
+  <line x1="880" y1="162" x2="1150" y2="162" stroke="#21262d"/>
+  <line x1="880" y1="200" x2="1150" y2="200" stroke="#21262d"/>
 </svg>
