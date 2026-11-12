@@ -13,46 +13,40 @@
 
 <table width="100%">
   <tr>
-    <th align="left" width="50"><sub>序号</sub></th>
-    <th align="left" width="330"><sub>项目</sub></th>
-    <th align="left" width="120"><sub>语言</sub></th>
-    <th align="left" width="175"><sub>状态</sub></th>
-    <th align="left" width="300"><sub>备注</sub></th>
+    <th align="left" width="52"><sub>序号</sub></th>
+    <th align="left" width="320"><sub>项目名</sub></th>
+    <th align="left" width="380"><sub>项目说明</sub></th>
+    <th align="left" width="120"><sub>星标数</sub></th>
   </tr>
   <tr>
     <td><code>01</code></td>
-    <td><a href="https://github.com/Dontdrunk/ComfyUI-DD-Translation"><b>ComfyUI-DD-Translation</b></a><br><sub>面向最新版本 ComfyUI 的全面翻译与适配</sub></td>
-    <td><code>Python</code></td>
-    <td>★ 848 · 维护中</td>
-    <td><sub>上游同步 · 中文适配</sub></td>
+    <td><a href="https://github.com/Dontdrunk/ComfyUI-DD-Translation"><b>ComfyUI-DD-Translation</b></a></td>
+    <td>面向最新版本 ComfyUI 的全面翻译与适配</td>
+    <td>★ 848</td>
   </tr>
   <tr>
     <td><code>02</code></td>
-    <td><a href="https://github.com/Dontdrunk/ComfyUI-DD-Nodes"><b>ComfyUI-DD-Nodes</b></a><br><sub>多 AI 协作开发的节点库</sub></td>
-    <td><code>JavaScript</code></td>
-    <td>★ 184 · 维护中</td>
-    <td><sub>社区贡献合并 · 测试</sub></td>
+    <td><a href="https://github.com/Dontdrunk/ComfyUI-DD-Nodes"><b>ComfyUI-DD-Nodes</b></a></td>
+    <td>多 AI 协作开发的节点库</td>
+    <td>★ 184</td>
   </tr>
   <tr>
     <td><code>03</code></td>
-    <td><a href="https://github.com/Dontdrunk/Comfyui-EL-Launcher"><b>Comfyui-EL-Launcher</b></a><br><sub>ComfyUI 桌面启动器</sub></td>
-    <td><code>TypeScript</code></td>
-    <td>开发中</td>
-    <td><sub>桌面封装 · 自动更新</sub></td>
+    <td><a href="https://github.com/Dontdrunk/Comfyui-EL-Launcher"><b>Comfyui-EL-Launcher</b></a></td>
+    <td>ComfyUI 桌面启动器</td>
+    <td>—</td>
   </tr>
   <tr>
     <td><code>04</code></td>
-    <td><a href="https://github.com/Dontdrunk/ModuWeb-EasyPyEnv"><b>ModuWeb-EasyPyEnv</b></a><br><sub>可视化 Python 环境管理</sub></td>
-    <td><code>JavaScript</code></td>
-    <td>★ 34 · 稳定</td>
-    <td><sub>环境隔离 · 依赖清理</sub></td>
+    <td><a href="https://github.com/Dontdrunk/ModuWeb-EasyPyEnv"><b>ModuWeb-EasyPyEnv</b></a></td>
+    <td>可视化 Python 环境管理</td>
+    <td>★ 34</td>
   </tr>
   <tr>
     <td><code>05</code></td>
-    <td><a href="https://github.com/Dontdrunk/AgentEnvChecker"><b>AgentEnvChecker</b></a><br><sub>Windows Agent 环境诊断</sub></td>
-    <td><code>C#</code></td>
-    <td>稳定</td>
-    <td><sub>运行时自检 · 报错定位</sub></td>
+    <td><a href="https://github.com/Dontdrunk/AgentEnvChecker"><b>AgentEnvChecker</b></a></td>
+    <td>Windows Agent 环境诊断</td>
+    <td>—</td>
   </tr>
 </table>
 
